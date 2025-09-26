@@ -1,0 +1,73 @@
+body {
+    /* background-color: bisque; */
+    background-image: url("../images/p5.png");
+    background-attachment: fixed;
+    backdrop-filter: rgba;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    /* Safari support */
+    border-radius: 15px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    /* background-repeat: ; */
+    text-align: center;
+}
+
+
+.glass-bg {
+    width: 800px;
+    background: rgba(255, 255, 255, 0.856);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    /* Safari support */
+    border-radius: 15px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+.para {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
+/* Reset default list styles */
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: #333;
+}
+
+/* Style each link */
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 14px 20px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.nav-list a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Optional: Make it responsive */
+@media (max-width: 600px) {
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
