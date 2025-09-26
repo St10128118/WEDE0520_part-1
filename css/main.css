@@ -1,16 +1,15 @@
 body {
-    /* background-color: bisque; */
+    background-size: cover;
     background-image: url("../images/p5.png");
     background-attachment: fixed;
-    backdrop-filter: rgba;
+    background-position: center center;
+    background-repeat: no-repeat;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     /* Safari support */
     border-radius: 15px;
     padding: 20px;
     border: 1px solid rgba(255, 255, 255, 0.3);
-
-    /* background-repeat: ; */
     text-align: center;
 }
 
@@ -33,8 +32,10 @@ body {
 
 }
 
-
-
+.responsive-img {
+    margin: 1rem auto;
+    width: 80% !important;
+}
 
 
 /* Reset default list styles */
@@ -64,10 +65,81 @@ body {
     border-radius: 5px;
 }
 
-/* Optional: Make it responsive */
-@media (max-width: 600px) {
+
+/* Mobile devices */
+@media (max-width: 768px) {
+
+    body {
+        width: 90%;
+        background-size: 100%;
+    }
+
+
+    .glass-bg {
+        width: 100%;
+    }
+
     .nav-list {
         flex-direction: column;
         align-items: center;
+    }
+
+    .nav-list a {
+        display: block;
+        width: fit-content;
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .nav-list a:hover {
+        opacity: 70%;
+    }
+
+    h1,
+    h3 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .glass-bg {
+        padding: 0.75rem;
+    }
+
+    .image-container {
+        width: 100%;
+        margin: 1rem auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .responsive-img {
+        width: 100%;
+        margin: unset;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+    body {
+        padding: 0.5rem;
+        background-repeat: unset;
+    }
+
+    .nav-list a {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+    }
+
+    h1,
+    h3 {
+        font-size: 0.9rem;
+    }
+
+    .glass-bg {
+        font-size: 0.85rem;
     }
 }
