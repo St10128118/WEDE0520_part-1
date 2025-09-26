@@ -1,4 +1,7 @@
 /* CSS styling for Desktop solution */
+* {
+    padding: unset;
+}
 
 body {
     background-size: cover;
@@ -13,6 +16,13 @@ body {
     padding: 20px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     text-align: center;
+
+    /* Typography */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
 }
 
 

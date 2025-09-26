@@ -63,3 +63,9 @@ Building on the foundation from Part 1, this phase focused on enhancing the user
 This project has been a rewarding exploration of web development fundamentals. From structuring content to styling with CSS, each step has deepened my understanding of how to build functional and visually appealing websites.
 
 Thanks for checking out my work! 💻✨
+
+## References
+Bunnypants. (n.d.). How much does web design cost in South Africa?. Retrieved August 27, 2025, from https://www.bunnypants.co.za/how-much-does-web-design-cost-in-south-africa/
+Advertising Solutions SA. (n.d.). Website design cost South Africa. Retrieved August 27, 2025, from https://advertisingsolutions.co.za/website-design-cost-south-africa/
+AdzOnline. (n.d.). Website design prices. Retrieved August 27, 2025, from https://www.adzonline.co.za/website-design-prices/
+ProjectManager. (n.d.). Project milestones: What they are and how to use them. Retrieved August 27, 2025, from https://www.projectmanager.com/blog/project-milestone
