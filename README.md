@@ -3,6 +3,8 @@
 Welcome to my web development submission for WEDE0520! This project showcases my journey through building and refining a website using foundational web development techniques. Below you'll find a breakdown of the work completed in **Part 1** and **Part 2**, and perhaps later other parts of the assignment.
 
 ---
+## change log
+---
 
 ## 📁 Part 1 Submission: Laying the Foundation
 
