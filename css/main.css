@@ -1,3 +1,5 @@
+/* CSS styling for Desktop solution */
+
 body {
     background-size: cover;
     background-image: url("../images/p5.png");
@@ -66,7 +68,7 @@ body {
 }
 
 
-/* Mobile devices */
+/* CSS Styling for Mobile devices solution */
 @media (max-width: 768px) {
 
     body {
